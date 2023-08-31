@@ -3,3 +3,130 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(./images/stock_game.jpg);
+  background-size: cover;
+  mask-repeat: no-repeat;
+}
+
+h1 {
+  margin: 50px 20px 20px 20px;
+  padding: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  padding: 2%;
+}
+
+.left-sec,
+.right-sec {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.titl {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  width: 99%;
+  margin-top: 2%;
+  border: #394965 solid 1px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  margin-top: 2%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #d9ecfad3;
+  border: #394965 solid 1px;
+  border-radius: 10px;
+}
+
+.score-item {
+  padding: 5px;
+  list-style: none;
+}
+
+.score-item:nth-child(odd) {
+  background: #d9ecfad3;
+}
+
+.score-item:nth-child(even) {
+  background: rgba(255, 255, 255, 0.862);
+}
+
+input {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+  font-size: 14px;
+  background-color: #235a87;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.914);
+  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.468);
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #235a87;
+  cursor: pointer;
+}
+
+.btn:active {
+  color: #235a87;
+  background-color: #cde7f9;
+  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+footer a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(-5px);
+}
