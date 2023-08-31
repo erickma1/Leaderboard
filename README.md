@@ -114,6 +114,10 @@ To run tests, run the following command:
   npx eslint .
 ```
 
+```sh
+  npm start
+```
+
 ### Deployment
 
 You can deploy this project using:
@@ -125,7 +129,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **AishaAlsewi**
+👤 **erickma1**
 
 - GitHub: [@githubhandle](https://github.com/erickma1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/eric-mawudeku-55b74883/)
