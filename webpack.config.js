@@ -5,6 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     index: './src/index.js',
+    apiCall: './src/modules/apiCall.js',
   },
 
   plugins: [
