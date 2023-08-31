@@ -16,17 +16,148 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./images/stock_game.jpg */ "./src/images/stock_game.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n"],"sourceRoot":""}]);
+
+body {
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  background-size: cover;
+  mask-repeat: no-repeat;
+}
+
+h1 {
+  margin: 50px 20px 20px 20px;
+  padding: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  padding: 2%;
+}
+
+.left-sec,
+.right-sec {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.titl {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  width: 99%;
+  margin-top: 2%;
+  border: #394965 solid 1px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  margin-top: 2%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  background-color: #d9ecfad3;
+  border: #394965 solid 1px;
+  border-radius: 10px;
+}
+
+.score-item {
+  padding: 5px;
+  list-style: none;
+}
+
+.score-item:nth-child(odd) {
+  background: #d9ecfad3;
+}
+
+.score-item:nth-child(even) {
+  background: rgba(255, 255, 255, 0.862);
+}
+
+input {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px;
+  width: 150px;
+  font-size: 14px;
+  background-color: #235a87;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.914);
+  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.468);
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #235a87;
+  cursor: pointer;
+}
+
+.btn:active {
+  color: #235a87;
+  background-color: #cde7f9;
+  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+footer a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  font-weight: 600;
+  transform: translateY(-5px);
+}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,yDAA8C;EAC9C,sBAAsB;EACtB,sBAAsB;AACxB;;AAEA;EACE,2BAA2B;EAC3B,aAAa;EACb,eAAe;EACf,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,WAAW;AACb;;AAEA;EACE,WAAW;EACX,aAAa;EACb,WAAW;AACb;;AAEA;;EAEE,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,WAAW;AACb;;AAEA;EACE,UAAU;EACV,aAAa;EACb,8BAA8B;AAChC;;AAEA;EACE,UAAU;EACV,cAAc;EACd,yBAAyB;EACzB,aAAa;EACb,sBAAsB;EACtB,iBAAiB;AACnB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,aAAa;EACb,cAAc;EACd,sBAAsB;EACtB,6BAA6B;EAC7B,qBAAqB;EACrB,2BAA2B;EAC3B,yBAAyB;EACzB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,sCAAsC;AACxC;;AAEA;EACE,WAAW;EACX,WAAW;EACX,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,YAAY;EACZ,eAAe;EACf,yBAAyB;EACzB,YAAY;EACZ,kBAAkB;EAClB,sCAAsC;EACtC,gDAAgD;AAClD;;AAEA;EACE,oCAAoC;EACpC,cAAc;EACd,eAAe;AACjB;;AAEA;EACE,cAAc;EACd,yBAAyB;EACzB,8CAA8C;AAChD;;AAEA;EACE,eAAe;EACf,aAAa;EACb,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,eAAe;EACf,qBAAqB;EACrB,WAAW;AACb;;AAEA;EACE,WAAW;EACX,gBAAgB;EAChB,2BAA2B;AAC7B","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  background-image: url(./images/stock_game.jpg);\r\n  background-size: cover;\r\n  mask-repeat: no-repeat;\r\n}\r\n\r\nh1 {\r\n  margin: 50px 20px 20px 20px;\r\n  padding: 20px;\r\n  font-size: 60px;\r\n  font-weight: 700;\r\n  color: #fff;\r\n}\r\n\r\nh2 {\r\n  font-size: 30px;\r\n  font-weight: 700;\r\n  color: #fff;\r\n}\r\n\r\nmain {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 2%;\r\n}\r\n\r\n.left-sec,\r\n.right-sec {\r\n  width: 48%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 3%;\r\n}\r\n\r\n.titl {\r\n  width: 95%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.list {\r\n  width: 99%;\r\n  margin-top: 2%;\r\n  border: #394965 solid 1px;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n}\r\n\r\nform {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 20px;\r\n  margin-top: 2%;\r\n  flex-direction: column;\r\n  justify-content: space-around;\r\n  align-items: flex-end;\r\n  background-color: #d9ecfad3;\r\n  border: #394965 solid 1px;\r\n  border-radius: 10px;\r\n}\r\n\r\n.score-item {\r\n  padding: 5px;\r\n  list-style: none;\r\n}\r\n\r\n.score-item:nth-child(odd) {\r\n  background: #d9ecfad3;\r\n}\r\n\r\n.score-item:nth-child(even) {\r\n  background: rgba(255, 255, 255, 0.862);\r\n}\r\n\r\ninput {\r\n  width: 100%;\r\n  margin: 5px;\r\n  padding: 5px;\r\n}\r\n\r\n.btn {\r\n  margin: 5px;\r\n  padding: 5px;\r\n  width: 150px;\r\n  font-size: 14px;\r\n  background-color: #235a87;\r\n  color: white;\r\n  border-radius: 5px;\r\n  border: 1px solid rgba(0, 0, 0, 0.914);\r\n  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.468);\r\n}\r\n\r\n.btn:hover {\r\n  background-color: rgb(255, 255, 255);\r\n  color: #235a87;\r\n  cursor: pointer;\r\n}\r\n\r\n.btn:active {\r\n  color: #235a87;\r\n  background-color: #cde7f9;\r\n  box-shadow: 3px 4px 1px 1px rgba(0, 0, 0, 0.6);\r\n}\r\n\r\nfooter {\r\n  position: fixed;\r\n  display: flex;\r\n  bottom: 20px;\r\n  width: 100%;\r\n  margin: 10px;\r\n  padding: 10px;\r\n  justify-content: space-around;\r\n}\r\n\r\nfooter a {\r\n  font-size: 20px;\r\n  text-decoration: none;\r\n  color: #fff;\r\n}\r\n\r\nfooter a:hover {\r\n  color: #fff;\r\n  font-weight: 600;\r\n  transform: translateY(-5px);\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -123,6 +254,41 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -580,6 +746,16 @@ class Score {
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Score);
 
+/***/ }),
+
+/***/ "./src/images/stock_game.jpg":
+/*!***********************************!*\
+  !*** ./src/images/stock_game.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "9cffdb946cd922f7b566.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -608,6 +784,9 @@ class Score {
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -633,6 +812,18 @@ class Score {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -647,6 +838,55 @@ class Score {
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"index": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
