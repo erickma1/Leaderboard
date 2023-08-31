@@ -26,85 +26,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `* {
   padding: 0;
   box-sizing: border-box;
 }
-
-h1 {
-  margin: 20px;
-  padding: 20px;
-  font-size: 60px;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-main {
-  width: 100%;
-  display: flex;
-  padding: 2%;
-}
-
-.left-sec,
-.right-sec {
-  width: 48%;
-  display: flex;
-  flex-direction: column;
-  padding: 3%;
-}
-
-.titl {
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.list {
-  width: 99%;
-  margin-top: 2%;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-}
-
-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.score-item {
-  padding: 5px;
-  list-style: none;
-}
-
-.score-item:nth-child(odd) {
-  background: #ccc;
-}
-
-input {
-  width: 100%;
-  margin: 5px;
-  padding: 5px;
-}
-
-.btn {
-  margin: 5px;
-  padding: 5px;
-  width: 150px;
-  font-size: 14px;
-  background-color: brown;
-  color: white;
-}
-
-.btn:hover {
-  background-color: rgb(255, 255, 255);
-  color: brown;
-  cursor: pointer;
-}`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,WAAW;AACb;;AAEA;;EAEE,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,WAAW;AACb;;AAEA;EACE,UAAU;EACV,aAAa;EACb,8BAA8B;AAChC;;AAEA;EACE,UAAU;EACV,cAAc;EACd,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,iBAAiB;AACnB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,6BAA6B;EAC7B,qBAAqB;AACvB;;AAEA;EACE,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,WAAW;EACX,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,YAAY;EACZ,eAAe;EACf,uBAAuB;EACvB,YAAY;AACd;;AAEA;EACE,oCAAoC;EACpC,YAAY;EACZ,eAAe;AACjB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nh1 {\r\n  margin: 20px;\r\n  padding: 20px;\r\n  font-size: 60px;\r\n  font-weight: 700;\r\n}\r\n\r\nh2 {\r\n  font-size: 30px;\r\n  font-weight: 700;\r\n}\r\n\r\nmain {\r\n  width: 100%;\r\n  display: flex;\r\n  padding: 2%;\r\n}\r\n\r\n.left-sec,\r\n.right-sec {\r\n  width: 48%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 3%;\r\n}\r\n\r\n.titl {\r\n  width: 95%;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.list {\r\n  width: 99%;\r\n  margin-top: 2%;\r\n  border: 2px solid black;\r\n  display: flex;\r\n  flex-direction: column;\r\n  text-align: start;\r\n}\r\n\r\nform {\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-around;\r\n  align-items: flex-end;\r\n}\r\n\r\n.score-item {\r\n  padding: 5px;\r\n  list-style: none;\r\n}\r\n\r\n.score-item:nth-child(odd) {\r\n  background: #ccc;\r\n}\r\n\r\ninput {\r\n  width: 100%;\r\n  margin: 5px;\r\n  padding: 5px;\r\n}\r\n\r\n.btn {\r\n  margin: 5px;\r\n  padding: 5px;\r\n  width: 150px;\r\n  font-size: 14px;\r\n  background-color: brown;\r\n  color: white;\r\n}\r\n\r\n.btn:hover {\r\n  background-color: rgb(255, 255, 255);\r\n  color: brown;\r\n  cursor: pointer;\r\n}"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -551,30 +473,10 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/modules/List.js":
-/*!*****************************!*\
-  !*** ./src/modules/List.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-class ScoreList {
-  constructor() {
-    this.list = [];
-  }
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScoreList);
-
-/***/ }),
-
-/***/ "./src/modules/funcs.js":
-/*!******************************!*\
-  !*** ./src/modules/funcs.js ***!
-  \******************************/
+/***/ "./src/modules/apiCall.js":
+/*!********************************!*\
+  !*** ./src/modules/apiCall.js ***!
+  \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -583,22 +485,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   refreshScores: () => (/* binding */ refreshScores)
 /* harmony export */ });
 /* harmony import */ var _score_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./score.js */ "./src/modules/score.js");
-/* harmony import */ var _List_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./List.js */ "./src/modules/List.js");
+/* harmony import */ var _display_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./display.js */ "./src/modules/display.js");
 
 
 
-const scoreList = new _List_js__WEBPACK_IMPORTED_MODULE_1__["default"]();
+const scoreList = new _display_js__WEBPACK_IMPORTED_MODULE_1__["default"]();
 
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVpph4p/scores/';
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVpph4p1/scores/';
 
-//* ----------------Scores API-Fetch Function-----------//
 const fetchScores = async () => {
   const data = await fetch(url);
   const json = await data.json();
   return json.result;
 };
 
-// *----------------renderScore Function----------------//
 const renderScore = (obj) => {
   const scoreEl = document.createElement('li');
   scoreEl.classList.add('score-item');
@@ -609,7 +509,6 @@ const renderScore = (obj) => {
   document.querySelector('.list').appendChild(scoreEl);
 };
 
-// *-----------------Scores Refresh Function----------------//
 const refreshScores = async () => {
   scoreList.list = await fetchScores();
   const list = document.querySelector('.list');
@@ -617,7 +516,6 @@ const refreshScores = async () => {
   scoreList.list.forEach((obj) => renderScore(obj));
 };
 
-// *------------------Score AddFunction---------------------//
 const addScore = async () => {
   const user = document.querySelector('#name').value;
   const score = document.querySelector('#score').value;
@@ -635,12 +533,31 @@ const addScore = async () => {
       body: JSON.stringify(new _score_js__WEBPACK_IMPORTED_MODULE_0__["default"](user, score)),
 
     });
-    // to refresh list
     refreshScores();
   }
 };
 
 
+
+/***/ }),
+
+/***/ "./src/modules/display.js":
+/*!********************************!*\
+  !*** ./src/modules/display.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+class ScoreList {
+  constructor() {
+    this.list = [];
+  }
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ScoreList);
 
 /***/ }),
 
@@ -746,18 +663,18 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
-/* harmony import */ var _modules_funcs_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/funcs.js */ "./src/modules/funcs.js");
+/* harmony import */ var _modules_apiCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/apiCall.js */ "./src/modules/apiCall.js");
 
 
 
 const addScoreBtn = document.querySelector('#add_btn');
 const refreshBtn = document.querySelector('#refresh-btn');
 
-addScoreBtn.addEventListener('click', _modules_funcs_js__WEBPACK_IMPORTED_MODULE_1__.addScore);
-refreshBtn.addEventListener('click', _modules_funcs_js__WEBPACK_IMPORTED_MODULE_1__.refreshScores);
+addScoreBtn.addEventListener('click', _modules_apiCall_js__WEBPACK_IMPORTED_MODULE_1__.addScore);
+refreshBtn.addEventListener('click', _modules_apiCall_js__WEBPACK_IMPORTED_MODULE_1__.refreshScores);
 
 window.onload = () => {
-  (0,_modules_funcs_js__WEBPACK_IMPORTED_MODULE_1__.refreshScores)();
+  (0,_modules_apiCall_js__WEBPACK_IMPORTED_MODULE_1__.refreshScores)();
 };
 })();
 
